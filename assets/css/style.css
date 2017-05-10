@@ -8,11 +8,6 @@ body {
     height: 100%;
 }
 
-/*Nav Bar*/
-.rowa {
-	margin-bottom: -20px;
-}
-
 /*Name Banner*/
 .name {
 	color: #ffffff;
@@ -23,26 +18,86 @@ body {
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
 
-.rowb {
-	color: white;
+.rowa {
+	margin-bottom: -20px
+}
+
+/*Sociel Media Links*/
+
+.box2 {
+	width: 245px;
+}
+
+.cwm {
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+	color: #51a9a4;
 	border-bottom: solid;
-	border-color: #f1f1f1;
-}
-
-/*Page Links*/
-.pagelink {
-	text-align: center;
-	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
-	color: #a6a6a6;
-	font-size: 15px;
-	font-weight: 575;
-	margin-top: 35px;
-	text-decoration: none;
-}
-
-.pagelink2 {
-	border-right: solid;
-	border-left: solid;
-	border-color: #f1f1f1;
 	border-width: 1px;
+	border-color: #f1f1f1;
+	padding: 15px 12px 15px 0px;
+	text-align: center;
+}
+
+.githubb {
+	width: 115px;
+	height: 115px;
+	margin-left: 60px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.linkedinn {
+	width: 128px;
+	height: 128px;
+	margin-left: 55px;
+	margin-bottom: 7px;
+}
+
+.stacko {
+	width: 115px;
+	height: 115px;
+	margin-left: 60px;
+	margin-bottom: 22px;
+}
+
+/*About Me box*/ 
+.container {
+	background-color: #ffffff;
+}
+
+.aboutme {
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+	color: #51a9a4;
+	padding: 6px 340px 20px 0px;
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: rgb(225,225,225);	
+}
+
+#photo {
+	width: 350px;
+	height: 300px;
+	padding: 20px 20px 20px 0px;
+	float: left;
+}
+
+.words{
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+	font-size: 17px;
+	color: #88888b;
+}
+
+/*Copyright banner*/
+
+.copy {
+	text-align: center;
+	color: #c1c1c1;
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: solid;
+	border-width: 7px;
+	border-color: #4aaaa5;
+	background-color: #6f6f6f;
+	font-size: 15px;
 }
